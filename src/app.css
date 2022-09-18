@@ -57,12 +57,12 @@ html {
 
 @layer components {
   .punk-container {
-    @apply relative min-h-screen p-32;
+    @apply relative min-h-screen p-12 md:p-32;
   }
   .punk-inner-container {
-    @apply flex flex-col gap-12 text-white relative z-10;
+    @apply flex flex-col gap-12 text-center md:text-left text-white relative z-10;
   }
   .punk-btn {
-    @apply py-2 px-5 tracking-wider text-gray-600 uppercase text-2xl transition-all hover:scale-125 bg-white font-extralight
+    @apply py-2 px-5 tracking-wider text-gray-600 uppercase text-lg md:text-2xl transition-all hover:scale-125 bg-white font-extralight
   }
 }

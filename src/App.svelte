@@ -24,16 +24,16 @@
 </script>
 
 <main>
-  <div class="absolute top-0 left-0 w-full flex flex-row px-40 items-center h-28">
+  <div class="absolute top-0 left-0 w-full flex flex-row px-0 md:px-40 items-center h-28">
 
     <div class="absolute opacity-50 blur-md bg-black top-0 left-0 w-full h-full z-10"></div>
 
-    <div class="flex items-center gap-2 grow relative z-20 text-white">
+    <div class="flex items-center gap-2 justify-center md:justify-start grow relative z-20 text-white">
       <img src={LogoWhite} class="w-auto h-12" alt="logoWhite">
       <h1 class="text-4xl leading-none">Evmos Punks</h1>
     </div>
 
-    <ul class="flex text-4xl items-center relative z-20 text-white gap-8">
+    <ul class="hidden md:flex text-4xl items-center relative z-20 text-white gap-8">
       <li>What de?</li>
       <li>Beauties</li>
       <li>Map</li>
@@ -45,10 +45,10 @@
   </div>
 
   <div class="relative flex items-center justify-center h-[110vh]">
-    <img src={CoverImage} class="absolute top-0 left-0 z-0 w-full h-full object-cover" alt="coverImage" />
+    <img src={CoverImage} class="absolute top-0 left-0 z-0 w-full h-full object-right md:object-center object-cover" alt="coverImage" />
     <div class="z-10 relative flex flex-col items-center">
-      <h1 class="text-white text-8xl">JUST MINT A PUNK.</h1>
-      <h1 class="text-white text-8xl">WHAT MORE DO U NEED?</h1>
+      <h1 class="text-white text-5xl md:text-8xl">JUST MINT A PUNK.</h1>
+      <h1 class="text-white text-4xl md:text-8xl">WHAT MORE DO U NEED?</h1>
 
       <button class="mt-8 punk-btn">Mint a Punk</button>
     </div>
@@ -58,32 +58,32 @@
     <img src={BackgroundImage} class="absolute top-0 left-0 w-full h-full z-0" alt="bg">
 
     <div class="punk-inner-container">
-      <h1 class="text-8xl">What de?</h1>
+      <h1 class="text-5xl md:text-8xl">What de?</h1>
       <p class="text-4xl">Why you? Wen mint? What the Punk?</p>
-      <div class="flex justify-between">
-        <div class="w-5/12">
+      <div class="flex flex-col md:flex-row justify-between">
+        <div class="md:w-5/12">
           <img src={FeatureNft} class="h-full w-full" alt="">
         </div>
-        <div class="w-6/12 flex items-center">
+        <div class="md:w-6/12 flex items-center">
           <ul class="flex flex-col gap-16">
-            <li class="flex gap-4">
-              <img src={FeatureHappyIcon} class="h-14 w-auto" alt="featureHappyIcon">
+            <li class="flex flex-col items-center md:items-start md:flex-row gap-4 p-12 md:p-0">
+              <img src={FeatureHappyIcon} class="h-14 w-14 md:w-auto" alt="featureHappyIcon">
               <div class="mt-2">
-                <h2 class="text-4xl">Why you?</h2>
+                <h2 class="text-5xl md:text-4xl">Why you?</h2>
                 <p class="text-2xl">Give your team the autonomy they need with access to as many cards as they need. Authorise purchases with a click. Simple.</p>
               </div>
             </li>
-            <li class="flex gap-4">
-              <img src={FeatureTimeIcon} class="h-14 w-auto" alt="featureHappyIcon">
+            <li class="flex flex-col items-center md:items-start md:flex-row gap-4 p-12 md:p-0">
+              <img src={FeatureTimeIcon} class="h-14 w-14 md:w-auto" alt="featureHappyIcon">
               <div class="mt-2">
-                <h2 class="text-4xl">Wen? Wen? Wen?</h2>
+                <h2 class="text-5xl md:text-4xl">Wen? Wen? Wen?</h2>
                 <p class="text-2xl">Every card comes with configurable spending limits, purchase restrictions, and cancellations for each employee and team.</p>
               </div>
             </li>
-            <li class="flex gap-4">
-              <img src={FeatureDiamondIcon} class="h-14 w-auto" alt="featureHappyIcon">
+            <li class="flex flex-col items-center md:items-start md:flex-row gap-4 p-12 md:p-0">
+              <img src={FeatureDiamondIcon} class="h-14 w-14 md:w-auto" alt="featureHappyIcon">
               <div class="mt-2">
-                <h2 class="text-4xl">WTP?</h2>
+                <h2 class="text-5xl md:text-4xl">WTP?</h2>
                 <p class="text-2xl">An all-in-one platform that helps you balance everything your team need to be happy and your finances in order.</p>
               </div>
             </li>
@@ -98,8 +98,8 @@
     <img src={BackgroundImage} class="absolute top-0 left-0 w-full h-full z-0" alt="bg">
 
     <div class="punk-inner-container">
-      <div class="flex justify-between">
-        <h1 class="text-6xl">I mean, just look at em beauties</h1>
+      <div class="flex flex-col md:flex-row gap-5 md:gap-0 justify-between">
+        <h1 class="text-4xl md:text-6xl">I mean, just look at em beauties</h1>
         <button class="punk-btn text-xl flex items-center gap-2">
           <svg width="20" height="20" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15 15C15 15 13.5 13 11 13C8.5 13 7 15 7 15M16 8.24C15.605 8.725 15.065 9 14.5 9C13.935 9 13.41 8.725 13 8.24M9 8.24C8.605 8.725 8.065 9 7.5 9C6.935 9 6.41 8.725 6 8.24M21 11C21 16.5228 16.5228 21 11 21C5.47715 21 1 16.5228 1 11C1 5.47715 5.47715 1 11 1C16.5228 1 21 5.47715 21 11Z" stroke="#344054" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -156,89 +156,89 @@
     <img src={BackgroundImage} class="absolute top-0 left-0 w-full h-full z-0" alt="bg">
 
     <div class="punk-inner-container">
-      <h1 class="text-7xl">Punkmap: Simple, yet profound. So philosophical. </h1>
-      <h2 class="text-4xl">We believe Untitled should be accessible to all companies, no matter the size.</h2>
+      <h1 class="text-3xl md:text-7xl">Punkmap: Simple, yet profound. So philosophical. </h1>
+      <h2 class="text-xl md:text-4xl">We believe Untitled should be accessible to all companies, no matter the size.</h2>
 
-      <ul class="pt-12 flex justify-around gap-32">
-        <li class="w-4/12 bg-black flex flex-col gap-5 items-center py-6 px-9">
+      <ul class="pt-12 flex flex-col md:flex-row justify-around gap-32">
+        <li class="md:w-4/12 bg-black flex flex-col gap-5 items-center py-6 px-9">
           <img src={LightingIcon} class="h-13 w-auto" alt="featureHappyIcon">
-          <h1 class="text-5xl text-center">Phase 1. The Great Beginning</h1>
+          <h1 class="text-3xl md:text-5xl text-center">Phase 1. The Great Beginning</h1>
           <ul class="flex w-full py-8 justify-start flex-col gap-4">
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-2xl">We Launch Punkz</p>
+              <p class="text-md md:text-2xl">We Launch Punkz</p>
             </li>
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-2xl">We buy coffee</p>
+              <p class="text-md md:text-2xl">We buy coffee</p>
             </li>
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-2xl">We buy flower for our mommaz</p>
+              <p class="text-md md:text-2xl">We buy flower for our mommaz</p>
             </li>
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-2xl">We do DAO, I guess</p>
+              <p class="text-md md:text-2xl">We do DAO, I guess</p>
             </li>
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-2xl">Should we do DAO? </p>
+              <p class="text-md md:text-2xl">Should we do DAO? </p>
             </li>
           </ul>
           <button class="punk-btn w-full">Are we WAGMI yet?</button>
         </li>
 
-        <li class="w-4/12 bg-black flex flex-col gap-5 items-center py-6 px-9">
+        <li class="md:w-4/12 bg-black flex flex-col gap-5 items-center py-6 px-9">
           <img src={SpeedIcon} class="h-13 w-auto" alt="featureHappyIcon">
-          <h1 class="text-5xl text-center">Phase 2. We need some time to code</h1>
+          <h1 class="text-3xl md:text-5xl text-center">Phase 2. We need some time to code</h1>
           <ul class="flex w-full py-8 justify-start flex-col gap-4">
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-2xl">We airdrop magic money</p>
+              <p class="text-md md:text-2xl">We airdrop magic money</p>
             </li>
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-2xl">We launch many good dApps</p>
+              <p class="text-md md:text-2xl">We launch many good dApps</p>
             </li>
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-2xl">1 more word, “Robots”.</p>
+              <p class="text-md md:text-2xl">1 more word, “Robots”.</p>
             </li>
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-2xl">We give... what else do you want?</p>
+              <p class="text-md md:text-2xl">We give... what else do you want?</p>
             </li>
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-2xl">Hopefully, WAGMI</p>
+              <p class="text-md md:text-2xl">Hopefully, WAGMI</p>
             </li>
           </ul>
           <button class="punk-btn w-full">Are we WAGMI yet?</button>
         </li>
 
-        <li class="w-4/12 bg-black flex flex-col gap-5 items-center py-6 px-9">
+        <li class="md:w-4/12 bg-black flex flex-col gap-5 items-center py-6 px-9">
           <img src={SnowIcon} class="h-13 w-auto" alt="featureHappyIcon">
-          <h1 class="text-5xl text-center">Phase 3. Must think big. So, big stuff</h1>
+          <h1 class="text-3xl md:text-5xl text-center">Phase 3. Must think big. So, big stuff</h1>
           <ul class="flex w-full py-8 justify-start flex-col gap-4">
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-2xl">We give you more JPEGs</p>
+              <p class="text-md md:text-2xl">We give you more JPEGs</p>
             </li>
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-2xl">We bring more frens to Evmos</p>
+              <p class="text-md md:text-2xl">We bring more frens to Evmos</p>
             </li>
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-2xl">We have dinner with Vitalik</p>
+              <p class="text-md md:text-2xl">We have dinner with Vitalik</p>
             </li>
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-2xl">We party with Satoshi</p>
+              <p class="text-md md:text-2xl">We party with Satoshi</p>
             </li>
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-2xl">We send Evmos Punk to MarZ</p>
+              <p class="text-md md:text-2xl">We send Evmos Punk to MarZ</p>
             </li>
           </ul>
           <button class="punk-btn w-full">Are we WAGMI yet?</button>
@@ -252,10 +252,10 @@
     <img src={BackgroundImage} class="absolute top-0 left-0 w-full h-full z-0" alt="bg">
 
     <div class="punk-inner-container items-center text-center">
-      <h1 class="text-8xl">Meet our team</h1>
-      <p class="w-7/12 text-3xl">Our philosophy is simple — hire a team of diverse, passionate people and foster a culture that empowers you to do your best work. Yeah, we copied it. </p>
+      <h1 class="text-4xl md:text-8xl">Meet our team</h1>
+      <p class="md:w-7/12 text-lg md:text-3xl">Our philosophy is simple — hire a team of diverse, passionate people and foster a culture that empowers you to do your best work. Yeah, we copied it. </p>
 
-      <ul class="flex gap-20">
+      <ul class="flex flex-col md:flex-row gap-20">
         <li class="flex items-start flex-col">
           <img src={Nft8} class="w-80 h-auto" alt="nftImage">
           <h3 class="text-5xl mt-4">Olivia Rhye</h3>
@@ -283,16 +283,16 @@
   <div class="punk-container">
     <img src={BackgroundImage} class="absolute top-0 left-0 w-full h-full z-0" alt="bg">
 
-    <div class="punk-inner-container flex-row text-center">
-      <div class="w-6/12 flex flex-col justify-start text-left">
+    <div class="punk-inner-container flex-col md:flex-row text-center">
+      <div class="md:w-6/12 text-center flex flex-col justify-start md:text-left">
         <h5 class="text-3xl">Support</h5>
-        <h1 class="text-8xl mb-4">FAQS</h1>
+        <h1 class="text-7xl md:text-8xl mb-4">FAQS</h1>
         <p class="text-2xl">Everything you need to know about the product and billing. Can’t find the answer you’re looking for? Please chat to our team.</p>
       </div>
-      <div class="flex flex-col items-start w-6/12">
+      <div class="flex flex-col items-start md:w-6/12">
         <div tabindex="0" class="collapse collapse-plus">
           <input type="checkbox" /> 
-          <div class="collapse-title text-2xl text-left">Is there a free trial available?</div>
+          <div class="collapse-title text-lg md:text-2xl text-left">Is there a free trial available?</div>
           <div class="collapse-content"> 
             <p class="text-left text-md">Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>
           </div>
@@ -300,7 +300,7 @@
 
         <div tabindex="0" class="collapse collapse-plus w-full">
           <input type="checkbox" /> 
-          <div class="collapse-title text-2xl text-left">
+          <div class="collapse-title text-lg md:text-2xl text-left">
             Can I change my plan later?
           </div>
           <div class="collapse-content"> 
@@ -310,7 +310,7 @@
 
         <div tabindex="0" class="collapse collapse-plus w-full">
           <input type="checkbox" /> 
-          <div class="collapse-title text-2xl text-left">What is your cancellation policy?</div>
+          <div class="collapse-title text-lg md:text-2xl text-left">What is your cancellation policy?</div>
           <div class="collapse-content"> 
             <p class="text-left text-md">Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>
           </div>
@@ -318,7 +318,7 @@
 
         <div tabindex="0" class="collapse collapse-plus w-full">
           <input type="checkbox" /> 
-          <div class="collapse-title text-2xl text-left">Can other info be added to an invoice?</div>
+          <div class="collapse-title text-lg md:text-2xl text-left">Can other info be added to an invoice?</div>
           <div class="collapse-content"> 
             <p class="text-left text-md">Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>
           </div>
@@ -326,7 +326,7 @@
 
         <div tabindex="0" class="collapse collapse-plus w-full">
           <input type="checkbox" /> 
-          <div class="collapse-title text-2xl text-left">How does billing work?</div>
+          <div class="collapse-title text-lg md:text-2xl text-left">How does billing work?</div>
           <div class="collapse-content"> 
             <p class="text-left text-md">Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>
           </div>
@@ -334,7 +334,7 @@
 
         <div tabindex="0" class="collapse collapse-plus w-full">
           <input type="checkbox" /> 
-          <div class="collapse-title text-2xl text-left">How do I change my account email?</div>
+          <div class="collapse-title text-lg md:text-2xl text-left">How do I change my account email?</div>
           <div class="collapse-content"> 
             <p class="text-left text-md">Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>
           </div>
@@ -345,10 +345,10 @@
   </div>
 
 
-  <div class="relative w-full z-0 bg-transparent px-32 flex items-center h-24">
+  <div class="relative w-full z-0 bg-transparent md:px-32 flex items-center md:h-24">
     <img src={BackgroundImage} class="absolute top-0 left-0 w-full h-full z-0 object-cover" alt="bg">
 
-    <div class="punk-inner-container w-full flex flex-row items-center">
+    <div class="punk-inner-container w-full flex flex-col md:flex-row items-center">
       <div class="flex items-center gap-2 relative text-white">
         <img src={LogoWhite} class="w-auto h-12" alt="logoWhite">
         <h1 class="text-4xl leading-none">Evmos Punks</h1>
