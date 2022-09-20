@@ -12,7 +12,11 @@
   import Nft3 from '../assets/imgs/nft3.png'
   import Nft4 from '../assets/imgs/nft4.png'
 
-  let nftContractAddress = "0x42E66bA8D80B098F75554b061288a41d083C6348"
+  let nftContractAddress = "0xc50c6773761090742bb321112A38dEe684e41118"
+
+  let isMintPressed = false;
+  let isError = false;
+  let isSuccess = false;
 
   async function handleMint(){
       try {
@@ -50,7 +54,13 @@
 
           const contract = new ethers.Contract(nftContractAddress, NftAbi, provider);
           await contract.connect(signer).mint(window.ethereum.selectedAddress);
-        }catch(e){ console.log(e) }
+          isSuccess = true;
+        }catch(e){ 
+            console.log(e)
+            isError = true;
+        }
+
+      isMintPressed = true;
   }
 
 </script>
@@ -116,7 +126,18 @@
 
             <div class="my-4 flex bg-[#5D5068] gap-4 w-full">
             </div>
-            <button class="punk-btn text-4xl w-full" on:click={() => { handleMint() }}>Mint</button>
+            {#if isMintPressed == false}
+              <button class="punk-btn text-4xl w-full" on:click={() => { handleMint() }}>Mint</button>
+              <h2 class="text-2xl mt-4 text-center">Please Check Tofu Wallet</h2>
+            {/if}
+
+            {#if isSuccess == true}
+              <h2 class="text-2xl mt-4 text-center">Thank you for minting</h2>
+            {/if}
+
+            {#if isError == true}
+              <h2 class="text-xl mt-4 text-center">You have already minted or an error occurred</h2>
+            {/if}
           </div>
 
         </div>
