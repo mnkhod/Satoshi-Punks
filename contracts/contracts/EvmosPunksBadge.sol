@@ -13,7 +13,7 @@ contract EvmosPunksBadge is ERC721, Ownable {
     constructor() ERC721("EvmosPunksBadge", "MomentumBadge") {}
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://moonsharks.mypinata.cloud/ipfs/QmVHHDyT12GEhQY8wtdHR8dDcDqqmLVjrrNq85GEKpyLSN";
+        return "https://moonsharks.mypinata.cloud/ipfs/QmVHHDyT12GEhQY8wtdHR8dDcDqqmLVjrrNq85GEKpyLSN/1";
     }
 
     function tokenURI(uint256 tokenId) public view override returns (string memory) {

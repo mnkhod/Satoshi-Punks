@@ -12,7 +12,7 @@
   import Nft3 from '../assets/imgs/nft3.png'
   import Nft4 from '../assets/imgs/nft4.png'
 
-  let nftContractAddress = "0xc50c6773761090742bb321112A38dEe684e41118"
+  let nftContractAddress = "0x582f598539dB91e3349b14f3B2459AA84deAb480"
 
   let isMintPressed = false;
   let isError = false;
