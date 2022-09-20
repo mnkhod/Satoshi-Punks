@@ -1,4 +1,7 @@
 <script>
+  import { ethers } from "ethers";
+  import NftAbi from '../../abi/contracts/EvmosPunksBadge.sol/EvmosPunksBadge.json'
+
   import Navbar from '../components/Navbar.svelte'
   import MintCover from '../assets/imgs/mintCover.png'
   import BackgroundImage from '../assets/imgs/bg.png'
@@ -9,7 +12,20 @@
   import Nft3 from '../assets/imgs/nft3.png'
   import Nft4 from '../assets/imgs/nft4.png'
 
-  let mintValue = 0;
+  let nftContractAddress = "0x128e6614252b70225A65088052A686feF7A4FDD0"
+
+  async function handleMint(){
+      try{
+        let provider = new ethers.providers.Web3Provider(window.ethereum)
+        await provider.send("eth_requestAccounts", []);
+        let signer = provider.getSigner()
+
+        const contract = new ethers.Contract(nftContractAddress, NftAbi, provider);
+        await contract.connect(signer).mint(window.ethereum.selectedAddress);
+      }catch(e){
+        console.log(e)
+      }
+  }
 
 </script>
 
@@ -43,7 +59,7 @@
             </ul>
           </div>
         </div>
-        <p class="text-2xl">Azuki starts with a collection of 10,000 avatars that give you membership access to The Garden: a corner of the internet where artists, builders, and web3 enthusiasts meet to create a decentralized future. Azuki holders receive access to exclusive drops, experiences, and more. Visit azuki.com for more details.</p>
+        <p class="text-2xl">The Punk Frontier: Evmos Punks are bringing the world of “quality NFTs” to Evmos Blockchain. With over-the-top promises and constant meh deliveries in hopes of WAGMI, we are diving headfirst into the NFT world. We had enough and decided to do it ourselves. Let’s admire our JPEGs together and do cool stuff.</p>
         <h2 class="text-5xl mt-4">Sample Drops</h2>
         <ul class="flex gap-4">
           <li class="p-4 bg-[#5D5068]">
@@ -60,37 +76,21 @@
           </li>
         </ul>
       </div>
-      <div class="w-5/12 flex justify-center items-center h-auto">
-        <div class="p-16 flex flex-col gap-2 h-full bg-[#5D5068]">
+      <div class="grow flex justify-center items-center">
+        <div class="p-16 w-10/12 flex flex-col gap-2 bg-[#5D5068]">
           <div class="flex items-center justify-between">
-            <h1 class="text-4xl">MINT YOUR NFT</h1>
-            <p class="text-xl">Live in 14:23:49:59</p>
+            <h1 class="text-4xl">MINT YOUR MOMENTUM BADGE</h1>
           </div>
-          <h2 class="text-2xl"><span class="text-gray-400">Date:</span> TBA</h2>
-          <h2 class="text-2xl"><span class="text-gray-400">Price:</span> 6.9 EVMOS</h2>
+          <h2 class="text-2xl"><span class="text-gray-400">Price:</span> Free</h2>
 
           <div class="my-8">
-            <div class="flex items-center justify-between">
-              <h2 class="text-3xl">How many NFTs to mint?</h2>
-              <p class="text-2xl text-gray-400">Max mint: 69</p>
+            <div class="flex gap-7 items-center justify-between">
+              <h2 class="text-3xl">1 Mint per Wallet</h2>
             </div>
 
             <div class="my-4 flex bg-[#5D5068] gap-4 w-full">
-              <button class="text-6xl" on:click={() => { if(mintValue == 0){return;}mintValue-- }}>-</button>
-              <input class="grow bg-transparent text-4xl text-center" type="text" disabled={true} value={mintValue} />
-              <button class="text-6xl" on:click={() => { mintValue++ }}>+</button>
             </div>
-            <button class="punk-btn text-4xl w-full">Mint</button>
-          </div>
-
-          <div class="flex justify-between">
-            <h2 class="text-2xl">Transaction summary:</h2>
-            <p class="text-2xl text-gray-400">41.4 EVMOS</p>
-          </div>
-
-          <div class="flex justify-between">
-            <h2 class="text-2xl">Total minted</h2>
-            <p class="text-2xl text-gray-400">1669/3333</p>
+            <button class="punk-btn text-4xl w-full" on:click={() => { handleMint() }}>Mint</button>
           </div>
 
         </div>

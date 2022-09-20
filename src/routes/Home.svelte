@@ -41,7 +41,7 @@
     </div>
   </div>
 
-  <div class="punk-container">
+  <div class="punk-container" id="WhatDe">
     <img src={BackgroundImage} class="absolute top-0 left-0 w-full h-full z-0" alt="bg">
 
     <div class="punk-inner-container">
@@ -56,22 +56,22 @@
             <li class="flex flex-col items-center md:items-start md:flex-row gap-4 p-12 md:p-0">
               <img src={FeatureHappyIcon} class="h-14 w-14 md:w-auto" alt="featureHappyIcon">
               <div class="mt-2">
-                <h2 class="text-5xl md:text-4xl">Why you?</h2>
-                <p class="text-2xl">Give your team the autonomy they need with access to as many cards as they need. Authorise purchases with a click. Simple.</p>
+                <h2 class="text-5xl md:text-4xl">Why Punks?</h2>
+                <p class="text-2xl">The punk subculture is all about anti-establishment views, the promotion of individual freedom, and the DIY ethics, the culture originated from punk rock. You get the idea.</p>
               </div>
             </li>
             <li class="flex flex-col items-center md:items-start md:flex-row gap-4 p-12 md:p-0">
               <img src={FeatureTimeIcon} class="h-14 w-14 md:w-auto" alt="featureHappyIcon">
               <div class="mt-2">
                 <h2 class="text-5xl md:text-4xl">Wen? Wen? Wen?</h2>
-                <p class="text-2xl">Every card comes with configurable spending limits, purchase restrictions, and cancellations for each employee and team.</p>
+                <p class="text-2xl">When all the cards are here. We need “YOU”, your friend, and your friend’s high school crush to join us. Also gud shit takes time.</p>
               </div>
             </li>
             <li class="flex flex-col items-center md:items-start md:flex-row gap-4 p-12 md:p-0">
               <img src={FeatureDiamondIcon} class="h-14 w-14 md:w-auto" alt="featureHappyIcon">
               <div class="mt-2">
                 <h2 class="text-5xl md:text-4xl">WTP?</h2>
-                <p class="text-2xl">An all-in-one platform that helps you balance everything your team need to be happy and your finances in order.</p>
+                <p class="text-2xl">Trust us. We’re the unprofessionals, here. Let us handle your money from here. But seriously wagmi with Evmos NFTs.</p>
               </div>
             </li>
           </ul>
@@ -81,7 +81,7 @@
     </div>
   </div>
 
-  <div class="punk-container">
+  <div class="punk-container" id="Beauties">
     <img src={BackgroundImage} class="absolute top-0 left-0 w-full h-full z-0" alt="bg">
 
     <div class="punk-inner-container">
@@ -139,7 +139,7 @@
     </div>  
   </div>
 
-  <div class="punk-container">
+  <div class="punk-container" id="Map">
     <img src={BackgroundImage} class="absolute top-0 left-0 w-full h-full z-0" alt="bg">
 
     <div class="punk-inner-container">
@@ -235,14 +235,14 @@
     </div>
   </div>
 
-  <div class="punk-container">
+  <div class="punk-container" id="WhoWe">
     <img src={BackgroundImage} class="absolute top-0 left-0 w-full h-full z-0" alt="bg">
 
-    <div class="punk-inner-container items-center text-center">
-      <h1 class="text-4xl md:text-8xl">Meet our team</h1>
+    <div class="punk-inner-container gap-7">
+      <h1 class="text-4xl md:text-6xl">Meet the gang</h1>
       <p class="md:w-7/12 text-lg md:text-3xl">Our philosophy is simple — hire a team of diverse, passionate people and foster a culture that empowers you to do your best work. Yeah, we copied it. </p>
 
-      <ul class="flex flex-col md:flex-row gap-20">
+      <ul class="flex flex-col md:flex-row mt-16 gap-20">
         <li class="flex items-start flex-col">
           <img src={Nft8} class="w-80 h-auto" alt="nftImage">
           <h3 class="text-5xl mt-4">Olivia Rhye</h3>
@@ -267,7 +267,7 @@
     </div>
   </div>
 
-  <div class="punk-container">
+  <div class="punk-container" id="faq">
     <img src={BackgroundImage} class="absolute top-0 left-0 w-full h-full z-0" alt="bg">
 
     <div class="punk-inner-container flex-col md:flex-row text-center">
@@ -277,53 +277,43 @@
         <p class="text-2xl">Everything you need to know about the product and billing. Can’t find the answer you’re looking for? Please chat to our team.</p>
       </div>
       <div class="flex flex-col items-start md:w-6/12">
-        <div tabindex="0" class="collapse collapse-plus">
+        <div tabindex="0" class="collapse w-full collapse-plus">
           <input type="checkbox" /> 
-          <div class="collapse-title text-lg md:text-2xl text-left">Is there a free trial available?</div>
+          <div class="collapse-title text-lg md:text-2xl text-left">When Mint?</div>
           <div class="collapse-content"> 
-            <p class="text-left text-md">Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>
+            <p class="text-left text-3xl">Someday in October or November. When it’s ready.</p>
           </div>
         </div>
 
         <div tabindex="0" class="collapse collapse-plus w-full">
           <input type="checkbox" /> 
-          <div class="collapse-title text-lg md:text-2xl text-left">
-            Can I change my plan later?
-          </div>
+          <div class="collapse-title text-lg md:text-2xl text-left">How much?</div>
           <div class="collapse-content"> 
-            <p class="text-left text-md">Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>
+            <p class="text-left text-3xl">6.9 Evmos. As it should be.</p>
           </div>
         </div>
 
         <div tabindex="0" class="collapse collapse-plus w-full">
           <input type="checkbox" /> 
-          <div class="collapse-title text-lg md:text-2xl text-left">What is your cancellation policy?</div>
+          <div class="collapse-title text-lg md:text-2xl text-left">How many?</div>
           <div class="collapse-content"> 
-            <p class="text-left text-md">Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>
+            <p class="text-left text-3xl">Not sure mate. Less than 10k more than 1k.</p>
           </div>
         </div>
 
         <div tabindex="0" class="collapse collapse-plus w-full">
           <input type="checkbox" /> 
-          <div class="collapse-title text-lg md:text-2xl text-left">Can other info be added to an invoice?</div>
+          <div class="collapse-title text-lg md:text-2xl text-left">How to contact the gang?</div>
           <div class="collapse-content"> 
-            <p class="text-left text-md">Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>
+            <p class="text-left text-3xl">DM us on Twitter, duh.</p>
           </div>
         </div>
 
         <div tabindex="0" class="collapse collapse-plus w-full">
           <input type="checkbox" /> 
-          <div class="collapse-title text-lg md:text-2xl text-left">How does billing work?</div>
+          <div class="collapse-title text-lg md:text-2xl text-left">WL me senpai?</div>
           <div class="collapse-content"> 
-            <p class="text-left text-md">Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>
-          </div>
-        </div>
-
-        <div tabindex="0" class="collapse collapse-plus w-full">
-          <input type="checkbox" /> 
-          <div class="collapse-title text-lg md:text-2xl text-left">How do I change my account email?</div>
-          <div class="collapse-content"> 
-            <p class="text-left text-md">Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>
+            <p class="text-left text-3xl">Check Discord and Twitter, kouhai!</p>
           </div>
         </div>
 

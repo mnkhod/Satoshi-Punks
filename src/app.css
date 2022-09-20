@@ -63,6 +63,6 @@ html {
     @apply flex flex-col gap-12 text-center md:text-left text-white relative z-10;
   }
   .punk-btn {
-    @apply py-2 px-5 tracking-wider text-gray-600 uppercase text-lg md:text-2xl transition-all hover:scale-125 bg-white font-extralight
+    @apply py-2 px-5 tracking-wider text-gray-600 uppercase text-lg md:text-2xl transition-all hover:bg-gray-200 bg-white font-extralight
   }
 }
