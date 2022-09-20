@@ -12,19 +12,45 @@
   import Nft3 from '../assets/imgs/nft3.png'
   import Nft4 from '../assets/imgs/nft4.png'
 
-  let nftContractAddress = "0x128e6614252b70225A65088052A686feF7A4FDD0"
+  let nftContractAddress = "0x42E66bA8D80B098F75554b061288a41d083C6348"
 
   async function handleMint(){
-      try{
-        let provider = new ethers.providers.Web3Provider(window.ethereum)
-        await provider.send("eth_requestAccounts", []);
-        let signer = provider.getSigner()
+      try {
+          await ethereum.request({
+              method: 'wallet_switchEthereumChain',
+              params: [{ chainId: '0x2329' }],
+            });
+        } catch (switchError) {
+            if (switchError.code === 4902) {
+                try {
+                    await ethereum.request({
+                        method: 'wallet_addEthereumChain',
+                        params: [
+                        {
+                            chainId: '0x2329',
+                            chainName: 'Evmos',
+                            rpcUrls: ['https://eth.bd.evmos.org:8545'],
+                            nativeCurrency: {
+                                name: "Evmos",
+                                symbol: "EVMOS",
+                                decimals: 18,
+                            }
+                        },],
+                      });
+                  } catch (addError) {
+                  console.log(addError)
+                }
+              }
+          }
 
-        const contract = new ethers.Contract(nftContractAddress, NftAbi, provider);
-        await contract.connect(signer).mint(window.ethereum.selectedAddress);
-      }catch(e){
-        console.log(e)
-      }
+      try{
+          let provider = new ethers.providers.Web3Provider(window.ethereum)
+          await provider.send("eth_requestAccounts", []);
+          let signer = provider.getSigner()
+
+          const contract = new ethers.Contract(nftContractAddress, NftAbi, provider);
+          await contract.connect(signer).mint(window.ethereum.selectedAddress);
+        }catch(e){ console.log(e) }
   }
 
 </script>

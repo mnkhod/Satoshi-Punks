@@ -13,7 +13,7 @@ contract EvmosPunksBadge is ERC721, Ownable {
     constructor() ERC721("EvmosPunksBadge", "MomentumBadge") {}
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://gateway.pinata.cloud/ipfs/QmYGC4phmbWs22mX6mgGNv1N3RhwSAzCEtgWhAmsxGmkSC";
+        return "https://gateway.pinata.cloud/ipfs/QmdmSedq1J6vQHWUpjLarQz224zTd1DTAqqezSJHR588qt";
     }
 
     function tokenURI(uint256 tokenId) public view override returns (string memory) {
@@ -23,8 +23,11 @@ contract EvmosPunksBadge is ERC721, Ownable {
         return bytes(baseURI).length > 0 ? baseURI : "";
     }
 
+    function totalSupply() view external returns(uint){
+      return _tokenIdCounter.current();
+    }
 
-    function mint(address to) public {
+    function mint(address to) external {
       require(_tokenIdCounter.current() < 1000,"MAX LIMIT");
       require(balanceOf(msg.sender) < 1,"User Already Has NFT");
 
