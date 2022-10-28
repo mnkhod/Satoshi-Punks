@@ -4,7 +4,7 @@
   import FeatureHappyIcon from '../assets/imgs/featureHappyIcon.png'
   import FeatureTimeIcon from '../assets/imgs/featureTimeIcon.png'
   import FeatureDiamondIcon from '../assets/imgs/featureDiamondIcon.png'
-  import FeatureNft from '../assets/imgs/featureNft.png'
+  import FeatureNft from '../assets/imgs/featureNft.gif'
 
   import LogoWhite from '../assets/imgs/logoWhite.png'
 
@@ -32,8 +32,8 @@
   <div class="relative flex items-center justify-center h-[110vh]">
     <img src={CoverImage} class="absolute top-0 left-0 z-0 w-full h-full object-right md:object-center object-cover" alt="coverImage" />
     <div class="z-10 relative flex flex-col items-center">
-      <h1 class="text-white text-5xl md:text-8xl">JUST MINT A PUNK.</h1>
-      <h1 class="text-white text-4xl md:text-8xl">WHAT MORE DO U NEED?</h1>
+      <h1 class="text-white text-5xl md:text-7xl">JUST MINT A PUNK.</h1>
+      <h1 class="text-white text-4xl md:text-7xl">WHAT MORE DO U NEED?</h1>
 
       
     </div>
@@ -43,8 +43,8 @@
     <img src={BackgroundImage} class="absolute top-0 left-0 w-full h-full z-0" alt="bg">
 
     <div class="punk-inner-container">
-      <h1 class="text-5xl md:text-8xl">What de?</h1>
-      <p class="text-4xl">Why you? Wen mint? What the Punk?</p>
+      <h1 class="text-5xl md:text-6xl">TLDR - some info about us</h1>
+      <p class="text-4xl"></p>
       <div class="flex flex-col md:flex-row justify-between">
         <div class="md:w-5/12">
           <img src={FeatureNft} class="h-full w-full" alt="">
@@ -54,8 +54,8 @@
             <li class="flex flex-col items-center md:items-start md:flex-row gap-4 p-12 md:p-0">
               <img src={FeatureHappyIcon} class="h-14 w-14 md:w-auto" alt="featureHappyIcon">
               <div class="mt-2">
-                <h2 class="text-5xl md:text-4xl">Why Punks?</h2>
-                <p class="text-2xl">Punks were taken, already. By 5+ projects. We are Punkz. Not just another derivative.</p>
+                <h2 class="text-5xl md:text-4xl">Why Punkz?</h2>
+                <p class="text-2xl">Punkz were taken, already. By 5+ projects. We are Punkz. Not just another derivative.</p>
               </div>
             </li>
             <li class="flex flex-col items-center md:items-start md:flex-row gap-4 p-12 md:p-0">
@@ -94,42 +94,42 @@
       </div>
 
       <ul class="flex gap-9 justify-center flex-wrap">
-        <li class="p-4 bg-black w-auto">
+        <li class="p-4 bg-secondary w-auto">
           <img src={Nft1} class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #101</h3>
         </li>
 
-        <li class="p-4 bg-black w-auto">
+        <li class="p-4 bg-secondary w-auto">
           <img src={Nft2} class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #102</h3>
         </li>
 
-        <li class="p-4 bg-black w-auto">
+        <li class="p-4 bg-secondary w-auto">
           <img src={Nft3} class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #103</h3>
         </li>
 
-        <li class="p-4 bg-black w-auto">
+        <li class="p-4 bg-secondary w-auto">
           <img src={Nft4} class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #104</h3>
         </li>
 
-        <li class="p-4 bg-black w-auto">
+        <li class="p-4 bg-secondary w-auto">
           <img src={Nft5} class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #105</h3>
         </li>
 
-        <li class="p-4 bg-black w-auto">
+        <li class="p-4 bg-secondary w-auto">
           <img src={Nft6} class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #106</h3>
         </li>
 
-        <li class="p-4 bg-black w-auto">
+        <li class="p-4 bg-secondary w-auto">
           <img src={Nft7} class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #107</h3>
         </li>
 
-        <li class="p-4 bg-black w-auto">
+        <li class="p-4 bg-secondary w-auto">
           <img src={Nft8} class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #108</h3>
         </li>
@@ -141,11 +141,11 @@
     <img src={BackgroundImage} class="absolute top-0 left-0 w-full h-full z-0" alt="bg">
 
     <div class="punk-inner-container">
-      <h1 class="text-3xl md:text-7xl">Punkmap: Simple, yet profound. So philosophical. </h1>
-      <h2 class="text-xl md:text-4xl">We believe Untitled should be accessible to all companies, no matter the size.</h2>
+      <h1 class="text-3xl md:text-6xl">Punkmap: Simple, yet profound. So philosophical. </h1>
+     
 
       <ul class="pt-12 flex flex-col md:flex-row justify-around gap-32">
-        <li class="md:w-4/12 bg-black flex flex-col gap-5 items-center py-6 px-9">
+        <li class="md:w-4/12 bg-secondary flex flex-col gap-5 items-center py-6 px-9">
           <img src={LightingIcon} class="h-13 w-auto" alt="featureHappyIcon">
           <h1 class="text-3xl md:text-5xl text-center">Phase 1. The Great Beginning</h1>
           <ul class="flex w-full py-8 justify-start flex-col gap-4">
@@ -165,7 +165,7 @@
           <button class="punk-btn w-full">Are we WAGMI yet?</button>
         </li>
 
-        <li class="md:w-4/12 bg-black flex flex-col gap-5 items-center py-6 px-9">
+        <li class="md:w-4/12 bg-secondary flex flex-col gap-5 items-center py-6 px-9">
           <img src={SpeedIcon} class="h-13 w-auto" alt="featureHappyIcon">
           <h1 class="text-3xl md:text-5xl text-center">Phase 2. We need some time to code</h1>
           <ul class="flex w-full py-8 justify-start flex-col gap-4">
@@ -186,9 +186,9 @@
           <button class="punk-btn w-full">Are we WAGMI yet?</button>
         </li>
 
-        <li class="md:w-4/12 bg-black flex flex-col gap-5 items-center py-6 px-9">
+        <li class="md:w-4/12 bg-secondary flex flex-col gap-5 items-center py-6 px-9">
           <img src={SnowIcon} class="h-13 w-auto" alt="featureHappyIcon">
-          <h1 class="text-3xl md:text-5xl text-center">Phase 3. Must think big. So, big stuff</h1>
+          <h1 class="text-3xl md:text-5xl text-center">Phase 3. Must think big. Expansion.</h1>
           <ul class="flex w-full py-8 justify-start flex-col gap-4">
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
@@ -264,7 +264,7 @@
           <input type="checkbox" /> 
           <div class="collapse-title text-lg md:text-2xl text-left">How much?</div>
           <div class="collapse-content"> 
-            <p class="text-left text-3xl">4.2 APT. Might change. Price is volatile.</p>
+            <p class="text-left text-3xl">2.69 APT. Might change. Price is volatile.</p>
           </div>
         </div>
 
@@ -303,7 +303,7 @@
     <div class="punk-inner-container w-full flex flex-col md:flex-row items-center">
       <div class="flex items-center gap-2 relative text-white">
         <img src={LogoWhite} class="w-auto h-12" alt="logoWhite">
-        <h1 class="text-4xl leading-none">Aptos Punks</h1>
+        <h1 class="text-4xl leading-none">Aptos Punkz</h1>
       </div>
 
       <ul class="flex text-4xl justify-center grow items-center relative text-white gap-12">
