@@ -10,7 +10,7 @@
 
     <Link to="/" class="cursor-pointer flex items-center gap-2 justify-center md:justify-start grow relative z-20 text-white">
       <img src={LogoWhite} class="w-auto h-12" alt="logoWhite">
-      <h1 class="text-4xl leading-none">Evmos Punks</h1>
+      <h1 class="text-4xl leading-none">Aptos Punks</h1>
     </Link>
 
     <ul class="hidden md:flex text-4xl items-center relative z-20 text-white gap-8">
@@ -24,10 +24,10 @@
         <a href="#Map">Map</a>
       </li>
       <li>
-        <a href="#WhoWe">WhoWe</a>
+        <a href="#WhoWe">Who We</a>
       </li>
       <li>
-        <button class="punk-btn">Connect Wallet</button>
+        <button class="punk-btn">USELESS BUTTON</button>
       </li>
     </ul>
   </div>

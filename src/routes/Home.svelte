@@ -35,9 +35,7 @@
       <h1 class="text-white text-5xl md:text-8xl">JUST MINT A PUNK.</h1>
       <h1 class="text-white text-4xl md:text-8xl">WHAT MORE DO U NEED?</h1>
 
-      <Link to="/mint">
-        <button class="mt-8 punk-btn">Mint a Punk</button>
-      </Link>
+      
     </div>
   </div>
 
@@ -57,21 +55,21 @@
               <img src={FeatureHappyIcon} class="h-14 w-14 md:w-auto" alt="featureHappyIcon">
               <div class="mt-2">
                 <h2 class="text-5xl md:text-4xl">Why Punks?</h2>
-                <p class="text-2xl">The punk subculture is all about anti-establishment views, the promotion of individual freedom, and the DIY ethics, the culture originated from punk rock. You get the idea.</p>
+                <p class="text-2xl">Punks were taken, already. By 5+ projects. We are Punkz. Not just another derivative.</p>
               </div>
             </li>
             <li class="flex flex-col items-center md:items-start md:flex-row gap-4 p-12 md:p-0">
               <img src={FeatureTimeIcon} class="h-14 w-14 md:w-auto" alt="featureHappyIcon">
               <div class="mt-2">
-                <h2 class="text-5xl md:text-4xl">Wen? Wen? Wen?</h2>
-                <p class="text-2xl">When all the cards are here. We need “YOU”, your friend, and your friend’s high school crush to join us. Also gud shit takes time.</p>
+                <h2 class="text-5xl md:text-4xl">Degens be degens.</h2>
+                <p class="text-2xl">Trust us. We’re the unprofessionals, here. Let’s mint random NFTs, overleverage, and get high on web3 wins, “TOGETHER”.</p>
               </div>
             </li>
             <li class="flex flex-col items-center md:items-start md:flex-row gap-4 p-12 md:p-0">
               <img src={FeatureDiamondIcon} class="h-14 w-14 md:w-auto" alt="featureHappyIcon">
               <div class="mt-2">
-                <h2 class="text-5xl md:text-4xl">WTP?</h2>
-                <p class="text-2xl">Trust us. We’re the unprofessionals, here. Let us handle your money from here. But seriously wagmi with Evmos NFTs.</p>
+                <h2 class="text-5xl md:text-4xl">Join the movement.</h2>
+                <p class="text-2xl">We need “YOU”, your frens, and their high school crushes to join us.</p>
               </div>
             </li>
           </ul>
@@ -86,7 +84,7 @@
 
     <div class="punk-inner-container">
       <div class="flex flex-col md:flex-row gap-5 md:gap-0 justify-between">
-        <h1 class="text-4xl md:text-6xl">I mean, just look at em beauties</h1>
+        <h1 class="text-4xl md:text-6xl">Beauties - crafted with love</h1>
         <button class="punk-btn text-xl flex items-center gap-2">
           <svg width="20" height="20" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15 15C15 15 13.5 13 11 13C8.5 13 7 15 7 15M16 8.24C15.605 8.725 15.065 9 14.5 9C13.935 9 13.41 8.725 13 8.24M9 8.24C8.605 8.725 8.065 9 7.5 9C6.935 9 6.41 8.725 6 8.24M21 11C21 16.5228 16.5228 21 11 21C5.47715 21 1 16.5228 1 11C1 5.47715 5.47715 1 11 1C16.5228 1 21 5.47715 21 11Z" stroke="#344054" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -153,15 +151,7 @@
           <ul class="flex w-full py-8 justify-start flex-col gap-4">
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-md md:text-2xl">We Launch Punkz</p>
-            </li>
-            <li class="flex items-center gap-2">
-              <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-md md:text-2xl">We buy coffee</p>
-            </li>
-            <li class="flex items-center gap-2">
-              <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-md md:text-2xl">We buy flower for our mommaz</p>
+              <p class="text-md md:text-2xl">Launch Punkz</p>
             </li>
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
@@ -169,7 +159,7 @@
             </li>
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-md md:text-2xl">Should we do DAO? </p>
+              <p class="text-md md:text-2xl">Magic Aptos Money </p>
             </li>
           </ul>
           <button class="punk-btn w-full">Are we WAGMI yet?</button>
@@ -181,24 +171,17 @@
           <ul class="flex w-full py-8 justify-start flex-col gap-4">
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-md md:text-2xl">We airdrop magic money</p>
+              <p class="text-md md:text-2xl">1 word, "Robots".</p>
             </li>
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-md md:text-2xl">We launch many good dApps</p>
+              <p class="text-md md:text-2xl">Big fat illiquid bag</p>
             </li>
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-md md:text-2xl">1 more word, “Robots”.</p>
+              <p class="text-md md:text-2xl">What else do you want?</p>
             </li>
-            <li class="flex items-center gap-2">
-              <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-md md:text-2xl">We give... what else do you want?</p>
-            </li>
-            <li class="flex items-center gap-2">
-              <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-md md:text-2xl">Hopefully, WAGMI</p>
-            </li>
+            
           </ul>
           <button class="punk-btn w-full">Are we WAGMI yet?</button>
         </li>
@@ -213,19 +196,11 @@
             </li>
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-md md:text-2xl">We bring more frens to Evmos</p>
+              <p class="text-md md:text-2xl">You like cool jackets?</p>
             </li>
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-md md:text-2xl">We have dinner with Vitalik</p>
-            </li>
-            <li class="flex items-center gap-2">
-              <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-md md:text-2xl">We party with Satoshi</p>
-            </li>
-            <li class="flex items-center gap-2">
-              <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-md md:text-2xl">We send Evmos Punk to MarZ</p>
+              <p class="text-md md:text-2xl">I’m hungry</p>
             </li>
           </ul>
           <button class="punk-btn w-full">Are we WAGMI yet?</button>
@@ -245,22 +220,22 @@
       <ul class="flex flex-col md:flex-row mt-16 gap-20">
         <li class="flex items-start flex-col">
           <img src={Nft8} class="w-80 h-auto" alt="nftImage">
-          <h3 class="text-5xl mt-4">Olivia Rhye</h3>
+          <h3 class="text-5xl mt-4">Micheal</h3>
           <p class="text-2xl">Does 99% of the work</p>
         </li>
         <li class="flex items-start flex-col">
           <img src={Nft5} class="w-80 h-auto" alt="nftImage">
-          <h3 class="text-5xl mt-4">Phoenix Baker</h3>
+          <h3 class="text-5xl mt-4">Sainaa SB</h3>
           <p class="text-2xl">Has no idea what’s going on</p>
         </li>
         <li class="flex items-start flex-col">
           <img src={Nft2} class="w-80 h-auto" alt="nftImage">
-          <h3 class="text-5xl mt-4">Lana Steiner</h3>
+          <h3 class="text-5xl mt-4">Bilguun</h3>
           <p class="text-2xl">Says he’ll help but doesn’t</p>
         </li>
         <li class="flex items-start flex-col">
           <img src={Nft7} class="w-80 h-auto" alt="nftImage">
-          <h3 class="text-5xl mt-4">Demi Wilkinson</h3>
+          <h3 class="text-5xl mt-4">Mnk</h3>
           <p class="text-2xl">Shows up at the end</p>
         </li>
       </ul>
@@ -272,16 +247,16 @@
 
     <div class="punk-inner-container flex-col md:flex-row text-center">
       <div class="md:w-6/12 text-center flex flex-col justify-start md:text-left">
-        <h5 class="text-3xl">Support</h5>
+     
         <h1 class="text-7xl md:text-8xl mb-4">FAQS</h1>
-        <p class="text-2xl">Everything you need to know about the product and billing. Can’t find the answer you’re looking for? Please chat to our team.</p>
+        <p class="text-2xl"></p>
       </div>
       <div class="flex flex-col items-start md:w-6/12">
         <div tabindex="0" class="collapse w-full collapse-plus">
           <input type="checkbox" /> 
           <div class="collapse-title text-lg md:text-2xl text-left">When Mint?</div>
           <div class="collapse-content"> 
-            <p class="text-left text-3xl">Someday in October or November. When it’s ready.</p>
+            <p class="text-left text-3xl">Someday in November. When it’s ready.</p>
           </div>
         </div>
 
@@ -289,7 +264,7 @@
           <input type="checkbox" /> 
           <div class="collapse-title text-lg md:text-2xl text-left">How much?</div>
           <div class="collapse-content"> 
-            <p class="text-left text-3xl">6.9 Evmos. As it should be.</p>
+            <p class="text-left text-3xl">4.2 APT. Might change. Price is volatile.</p>
           </div>
         </div>
 
@@ -297,23 +272,23 @@
           <input type="checkbox" /> 
           <div class="collapse-title text-lg md:text-2xl text-left">How many?</div>
           <div class="collapse-content"> 
-            <p class="text-left text-3xl">Not sure mate. Less than 10k more than 1k.</p>
+            <p class="text-left text-3xl">5000.</p>
           </div>
         </div>
 
         <div tabindex="0" class="collapse collapse-plus w-full">
           <input type="checkbox" /> 
-          <div class="collapse-title text-lg md:text-2xl text-left">How to contact the gang?</div>
+          <div class="collapse-title text-lg md:text-2xl text-left">WL me Senpai?</div>
           <div class="collapse-content"> 
-            <p class="text-left text-3xl">DM us on Twitter, duh.</p>
+            <p class="text-left text-3xl">Check Discord, Twitter, and our Crew. Be ready.</p>
           </div>
         </div>
 
         <div tabindex="0" class="collapse collapse-plus w-full">
           <input type="checkbox" /> 
-          <div class="collapse-title text-lg md:text-2xl text-left">WL me senpai?</div>
+          <div class="collapse-title text-lg md:text-2xl text-left">Anything else?</div>
           <div class="collapse-content"> 
-            <p class="text-left text-3xl">Check Discord and Twitter, kouhai!</p>
+            <p class="text-left text-3xl">DM us on Twitter.</p>
           </div>
         </div>
 
@@ -328,7 +303,7 @@
     <div class="punk-inner-container w-full flex flex-col md:flex-row items-center">
       <div class="flex items-center gap-2 relative text-white">
         <img src={LogoWhite} class="w-auto h-12" alt="logoWhite">
-        <h1 class="text-4xl leading-none">Evmos Punks</h1>
+        <h1 class="text-4xl leading-none">Aptos Punks</h1>
       </div>
 
       <ul class="flex text-4xl justify-center grow items-center relative text-white gap-12">
@@ -343,7 +318,7 @@
         </li>
       </ul>
 
-      <h2 class="text-xl text-gray-300">© 2077 Untitled UI. All rights reserved.</h2>
+      <h2 class="text-xl text-gray-300">© 2077 Aptos Punkz. All rights reserved.</h2>
     </div>
   </div>
 
