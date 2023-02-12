@@ -54,8 +54,8 @@
             <li class="flex flex-col items-center md:items-start md:flex-row gap-4 p-12 md:p-0">
               <img src={FeatureHappyIcon} class="h-14 w-14 md:w-auto" alt="featureHappyIcon">
               <div class="mt-2">
-                <h2 class="text-5xl md:text-4xl">Why Punkz?</h2>
-                <p class="text-2xl">Punkz were taken, already. By 5+ projects. We are Punkz. Not just another derivative.</p>
+                <h2 class="text-5xl md:text-4xl">Why Punks?</h2>
+                <p class="text-2xl">Punks were taken, already. By 5+ projects. We are Satoshi Punks. Not just another derivative.</p>
               </div>
             </li>
             <li class="flex flex-col items-center md:items-start md:flex-row gap-4 p-12 md:p-0">
@@ -151,7 +151,7 @@
           <ul class="flex w-full py-8 justify-start flex-col gap-4">
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-md md:text-2xl">Launch Punkz</p>
+              <p class="text-md md:text-2xl">Launch Punks</p>
             </li>
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
@@ -159,7 +159,7 @@
             </li>
             <li class="flex items-center gap-2">
               <img src={CheckIcon} class="h-5 w-auto" alt="checkIcon">
-              <p class="text-md md:text-2xl">Magic Aptos Money </p>
+              <p class="text-md md:text-2xl">Magic BTC Money </p>
             </li>
           </ul>
           <button class="punk-btn w-full">Are we WAGMI yet?</button>
@@ -220,22 +220,22 @@
       <ul class="flex flex-col md:flex-row mt-16 gap-20">
         <li class="flex items-start flex-col">
           <img src={Nft8} class="w-80 h-auto" alt="nftImage">
-          <h3 class="text-5xl mt-4">Micheal</h3>
+          <h3 class="text-5xl mt-4">Lord Satoshi</h3>
           <p class="text-2xl">Does 99% of the work</p>
         </li>
         <li class="flex items-start flex-col">
           <img src={Nft5} class="w-80 h-auto" alt="nftImage">
-          <h3 class="text-5xl mt-4">Sainaa SB</h3>
+          <h3 class="text-5xl mt-4">Saina</h3>
           <p class="text-2xl">Has no idea what’s going on</p>
         </li>
         <li class="flex items-start flex-col">
           <img src={Nft2} class="w-80 h-auto" alt="nftImage">
-          <h3 class="text-5xl mt-4">Bilguun</h3>
+          <h3 class="text-5xl mt-4">Satoshi Punk</h3>
           <p class="text-2xl">Says he’ll help but doesn’t</p>
         </li>
         <li class="flex items-start flex-col">
           <img src={Nft7} class="w-80 h-auto" alt="nftImage">
-          <h3 class="text-5xl mt-4">Mnk</h3>
+          <h3 class="text-5xl mt-4">Chteka</h3>
           <p class="text-2xl">Shows up at the end</p>
         </li>
       </ul>
@@ -256,7 +256,7 @@
           <input type="checkbox" /> 
           <div class="collapse-title text-lg md:text-2xl text-left">When Mint?</div>
           <div class="collapse-content"> 
-            <p class="text-left text-3xl">Someday in November. When it’s ready.</p>
+            <p class="text-left text-3xl">In february. When it’s ready.</p>
           </div>
         </div>
 
@@ -264,7 +264,7 @@
           <input type="checkbox" /> 
           <div class="collapse-title text-lg md:text-2xl text-left">How much?</div>
           <div class="collapse-content"> 
-            <p class="text-left text-3xl">2.69 APT. Might change. Price is volatile.</p>
+            <p class="text-left text-3xl">0.02 BTC. Might change. Price is volatile.</p>
           </div>
         </div>
 
@@ -272,7 +272,7 @@
           <input type="checkbox" /> 
           <div class="collapse-title text-lg md:text-2xl text-left">How many?</div>
           <div class="collapse-content"> 
-            <p class="text-left text-3xl">5000.</p>
+            <p class="text-left text-3xl">111</p>
           </div>
         </div>
 
@@ -280,7 +280,7 @@
           <input type="checkbox" /> 
           <div class="collapse-title text-lg md:text-2xl text-left">WL me Senpai?</div>
           <div class="collapse-content"> 
-            <p class="text-left text-3xl">Check Discord, Twitter, and our Crew. Be ready.</p>
+            <p class="text-left text-3xl">Check Discord, Twitter, Be ready.</p>
           </div>
         </div>
 
@@ -303,7 +303,7 @@
     <div class="punk-inner-container w-full flex flex-col md:flex-row items-center">
       <div class="flex items-center gap-2 relative text-white">
         <img src={LogoWhite} class="w-auto h-12" alt="logoWhite">
-        <h1 class="text-4xl leading-none">Aptos Punkz</h1>
+        <h1 class="text-4xl leading-none">Satoshi Punks</h1>
       </div>
 
       <ul class="flex text-4xl justify-center grow items-center relative text-white gap-12">
@@ -318,7 +318,7 @@
         </li>
       </ul>
 
-      <h2 class="text-xl text-gray-300">© 2077 Aptos Punkz. All rights reserved.</h2>
+      <h2 class="text-xl text-gray-300">© 2069 Satoshi Punks. All rights reserved.</h2>
     </div>
   </div>
 

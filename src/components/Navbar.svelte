@@ -10,7 +10,7 @@
 
     <Link to="/" class="cursor-pointer flex items-center gap-2 justify-center md:justify-start grow relative z-20 text-white">
       <img src={LogoWhite} class="w-auto h-12" alt="logoWhite">
-      <h1 class="text-4xl leading-none">Aptos Punkz</h1>
+      <h1 class="text-4xl leading-none">Satoshi Punks</h1>
     </Link>
 
     <ul class="hidden md:flex text-4xl items-center relative z-20 text-white gap-8">
