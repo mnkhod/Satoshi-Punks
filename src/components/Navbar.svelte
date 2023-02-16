@@ -15,16 +15,16 @@
 
     <ul class="hidden md:flex text-4xl items-center relative z-20 text-white gap-8">
       <li>
-        <a href="#WhatDe">TLDR</a>
+        <a href="#Manifesto">Manifesto</a>
       </li>
       <li>
-        <a href="#Beauties">Beauties</a>
+        <a href="#Gallery">Gallery</a>
       </li>
       <li>
-        <a href="#Map">Punkmap</a>
+        <a href="#Gang">Gang</a>
       </li>
       <li>
-        <a href="#WhoWe">Gang</a>
+        <a href="https://discord.gg/satoshipunks">Buy a Punk</a>
       </li>
       <li>
        
