@@ -83,9 +83,9 @@
     <div class="punk-inner-container">
       <div class="flex flex-col md:flex-row gap-5 md:gap-0 justify-between">
         <h1 class="text-4xl md:text-6xl">Gallery - crafted with love</h1>
-        <a href="/gallery" class="punk-btn text-xl w-3/12 flex justify-center items-center gap-2">
-          <span>View All</span>
-        </a>
+        <Link to="/gallery" class="punk-btn text-xl w-3/12 flex justify-center items-center gap-2">
+          View All
+        </Link>
       </div>
 
       <ul class="flex gap-9 justify-center flex-wrap">
