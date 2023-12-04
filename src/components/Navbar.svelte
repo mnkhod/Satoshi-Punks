@@ -24,10 +24,10 @@
         <a href="#Gang">Gang</a>
       </li>
       <li>
-        <a href="https://discord.gg/satoshipunks">Buy a Punk</a>
+        <a href="https://discord.gg/satoshipunksnft">Buy a Punk</a>
       </li>
       <li>
-       
+
       </li>
     </ul>
   </div>
